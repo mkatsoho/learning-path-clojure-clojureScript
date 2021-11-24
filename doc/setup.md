@@ -12,6 +12,16 @@ A more popular way is to use Ubuntu 18.04 or higher.
 
 ### Setup clojure
 
+- install openjdk (java sdk)
+- install clojure
+- install leininger
+- install clojure
+
+```bash
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+chmod 755 lein
+lein repl   # wait for quite a while, till something like `Clojure 1.10.3 ...` is shown
+```
 
 ### Setup VSCode
 
