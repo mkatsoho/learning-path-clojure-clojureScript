@@ -25,6 +25,8 @@ Install neovim (/usr/bin/neovim) on OS, before install neovim plugin on VSCode.
 
 `yay -S neovim`
 
+https://github.com/neovim/neovim/wiki/Installing-Neovim
+
 - vscode plugin: Calva. ???, How to enable it??? ctrl-shift-c, ctrl-shit-j ???
 - 
 
