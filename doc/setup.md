@@ -21,6 +21,8 @@ In short: vscode + neovim(optional) + Calva
 
 - Optional, vscode plugin: neovim. If you want to use vi inner VSCode. WARNING: another popular plugin `vscodevim` has key conflicts with clojure. 
 
+NOTE: neovim should be nightly buiuld 0.5.0 or upper. The stablle build is 0.2.x. 
+
 Install neovim (/usr/bin/neovim) on OS, before install neovim plugin on VSCode.
 
 `yay -S neovim`
