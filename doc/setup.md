@@ -14,12 +14,22 @@ A more popular way is to use Ubuntu 18.04 or higher.
 
 - install openjdk (java sdk)
 - install clojure
-- install leininger
+- install leiningen
+- new a project by `lein`, refer to https://tonydeng.github.io/2015/11/19/install-leiningen/
 - install clojure
 
 ```bash
 wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 chmod 755 lein
+
+lein new clojure-demo
+
+cd clojure-demo
+
+lein install
+lein run
+lein test
+
 lein repl   # wait for quite a while, till something like `Clojure 1.10.3 ...` is shown
 ```
 
